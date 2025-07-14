@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The JDII Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aos/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <h1>The JDII Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+    <video autoplay muted loop playsinline id="bg-video">
+        <source src="assets/video/background.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h2 data-aos="fade-up"></h2>
+    </div>
+    </section>
+
+
+    <!-- Work Section -->
+    <section id="work">
+        <h2 data-aos="fade-up">My Work</h2>
+        <div class="gallery">
+            <div class="item" data-aos="fade-up">
+                <video width="320" height="240" controls>
+					<source src="assets/video/clone.mp4" type="video/mp4">
+				</video>
+                <p>Clip #1 ~ My Clone</p>
+            </div>
+            <div class="item" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/images/work2.jpg" alt="Project 2">
+                <p>Project Title 2</p>
+            </div>
+            <div class="item" data-aos="fade-up" data-aos-delay="400">
+                <img src="assets/images/work3.jpg" alt="Project 3">
+                <p>Project Title 3</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 data-aos="fade-up">About Me</h2>
+        <p data-aos="fade-up" data-aos-delay="200">I am a video and photo editor, mashup artist, and writer.</p>
+		<h3 data-aos="fade-up">Apps I Use</h3>
+		<div class="gallery">
+			<div class="item" data-aos="fade-up" data-aos-delay="200">
+					<img src="assets/icons/Adobe_Audition.png" alt="Adobe Audition">
+					<p>Adobe Audition</p>
+				</div>
+			<div class="item" data-aos="fade-up" data-aos-delay="200">
+					<img src="assets/icons/Adobe_Premiere_Pro.png" alt="Adobe Premiere Pro">
+					<p>Adobe Premiere Pro</p>
+			</div>
+			<div class="item" data-aos="fade-up" data-aos-delay="200">
+					<img src="assets/icons/Adobe_Photoshop.png" alt="Adobe Photoshop">
+					<p>Adobe Photoshop</p>
+			</div>
+			<div class="item" data-aos="fade-up" data-aos-delay="200">
+					<img src="assets/icons/Python.png" alt="Python">
+					<p>Python</p>
+				</div>
+		</div>
+		<h3 data-aos="fade-up">Apps I Used</h3>
+		<div class="gallery">
+			<div class="item" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/icons/BandLab.png" alt="BandLab">
+                <p>BandLab</p>
+            </div>
+			<div class="item" data-aos="fade-up" data-aos-delay="200">
+					<img src="assets/icons/CapCut.png" alt="CapCut">
+					<p>CapCut</p>
+			</div>
+			<div class="item" data-aos="fade-up" data-aos-delay="200">
+					<img src="assets/icons/Audacity.png" alt="Audacity">
+					<p>Audacity</p>
+			</div>
+		</div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 data-aos="fade-up">Contact</h2>
+        <p data-aos="fade-up" data-aos-delay="200">Email: johnnydabb2@gmail.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 JDII</p>
+    </footer>
+
+    <script src="aos/aos.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>
